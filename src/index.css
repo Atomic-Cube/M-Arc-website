@@ -1,0 +1,34 @@
+.bg-image{
+  background-image: url(assets/14140423_5431218.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  
+}
+.main-color{
+  color: #f0bc11;
+
+}
+.item{
+  transition: 0.5s all;
+  overflow: hidden;
+}
+.item:hover{
+  transform: scale(1.05, 1.05);
+}
+.textStyle{
+
+  transition-property:transform ;
+  transition: all 1s;
+  opacity: 20%;
+
+  
+  
+}
+.items:hover .textStyle{
+
+ transform: translateY(-100%);
+
+ 
+}
